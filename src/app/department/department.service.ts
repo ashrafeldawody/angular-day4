@@ -6,7 +6,7 @@ import {Department} from "./department";
 })
 export class DepartmentService {
   departments: Department[] = [
-    {id:1,name:"Opensource",branch:"Mansoura"}
+    {id:1,name:"Open Source",branch:"Mansoura"}
   ];
   constructor() { }
   getAll(){

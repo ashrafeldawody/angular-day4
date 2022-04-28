@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {DepartmentModule} from "./department/department.module";
 import {CoreModule} from "./core/core.module";
 import {SweetAlert2Module} from "@sweetalert2/ngx-sweetalert2";
+import {StudentModule} from "./student/student.module";
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import {SweetAlert2Module} from "@sweetalert2/ngx-sweetalert2";
     AppRoutingModule,
     BrowserAnimationsModule,
     DepartmentModule,
+    StudentModule,
     CoreModule,
     SweetAlert2Module.forRoot(),
   ],
